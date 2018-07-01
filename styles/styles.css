@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+body {
+  max-width: 500px;
+  padding: 0px 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 15px;
+}
+
+li:hover {
+  background-color: #aeaeae;
+  cursor: pointer;
+}
+
+li.inactive {
+  background-color: #fff;
+  cursor: auto;
+  color: #aeaeae;
+}
